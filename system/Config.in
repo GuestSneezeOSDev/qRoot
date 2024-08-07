@@ -37,7 +37,7 @@ if BR2_ROOTFS_SKELETON_DEFAULT
 
 config BR2_TARGET_GENERIC_HOSTNAME
 	string "System hostname"
-	default "buildroot"
+	default "quantamos"
 	help
 	  Select system hostname to be stored in /etc/hostname.
 
@@ -46,7 +46,7 @@ config BR2_TARGET_GENERIC_HOSTNAME
 
 config BR2_TARGET_GENERIC_ISSUE
 	string "System banner"
-	default "Welcome to Buildroot"
+	default "Welcome to QuantamOS"
 	help
 	  Select system banner (/etc/issue) to be displayed at login.
 
